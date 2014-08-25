@@ -11,7 +11,7 @@ public class MoveScript : MonoBehaviour {
 
 	// Keep track of movement
 	private Vector2 movement;
-	
+
 	// Update is called once per frame
 	void Update () {
 		
@@ -19,7 +19,7 @@ public class MoveScript : MonoBehaviour {
 		movement = new Vector2 (
 			speed.x * direction.x,
 			speed.y * direction.y
-			);
+		);
 	}
 	
 	void FixedUpdate() {
